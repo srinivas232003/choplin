@@ -7,7 +7,7 @@
 }
 header{
     font-family: 'Montserrat', sans-serif;
-    background:url("./8697.jpg");
+    background:url("8697.jpg");
     background-attachment: fixed;
     height:100vh;
     display:flex;
