@@ -14,19 +14,18 @@ header{
 }
 section{
     height:88%;
-    line-height:5em;
     display:flex;
     flex-direction: row;
     justify-content: space-around;
     align-items:center;
 }
 #hero{
-    width:370px;
-    height:500px;
     max-width: 100%;
     border-radius:20%;
-
-
+}
+#image{
+width:370px;
+height:500px;
 }
 img.ico{
     margin-right:auto;
@@ -73,7 +72,6 @@ nav{
     font-weight:500;
     color:#798777;
     position:relative;
-    bottom:0.8em;
     padding: 1.2rem 1.5rem;
     border:0.13rem solid #798777ad;
     border-radius: 0.5rem;
@@ -81,7 +79,6 @@ nav{
 }
 .btn:hover{
     background-color:#E7E6E1;
-    
     color:#301B3F;
     border:1px solid #301B3F;
     box-shadow: 0 .8rem .5rem -.5rem #301B3F;
@@ -89,7 +86,7 @@ nav{
 
 }
 #who{
-    font-size: 0.7em;
+    font-size: 2.65rem;
 }
 @media(max-width:900px){
 
