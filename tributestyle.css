@@ -117,10 +117,11 @@ section{
         width:100%;            
     }
     .btn{
-        font-size:2.1rem;
+        font-size:1.5rem;
         bottom:unset;
         position:relative;
         top:2rem;
+        
 }
 nav{
     margin:0 4%;
