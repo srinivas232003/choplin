@@ -95,15 +95,17 @@ nav{
     }
 section{
     flex-direction: column;
-    justify-content: normal;
+    justify-content: flex-start;
     align-content: unset;
-    font-size: 2.9vw;
+    font-size: 2.3rem;
     margin:0 3%;
+    height:90%;
 }
     #hero{
         width: 300px;
         height:auto;
         position: relative;
+        top:48px;
     }
     div{
         text-align: center;
@@ -113,12 +115,14 @@ section{
         width:100%;            
     }
     .btn{
+        font-size:2.1rem;
         bottom:unset;
         position:relative;
-        top:1rem;
+        top:2rem;
 }
 nav{
     margin:0 4%;
+    height:10%;
 }
 img.ico{
     width: 75px;
@@ -127,15 +131,7 @@ img.ico{
 }
 
 }
-@media(max-width:550px){
-    #hero{
-        top: 8rem;
-    }
-    section{
-        justify-content: normal;
-        
-    }
-    .btn{
-        top:5em;
-    }
+#who{
+    font-size:1.85rem;
 }
+
