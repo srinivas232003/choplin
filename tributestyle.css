@@ -95,7 +95,7 @@ nav{
     }
 section{
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     align-content: unset;
     margin:0 3%;
     height:90%;
@@ -117,7 +117,7 @@ section{
         width:100%;            
     }
     .btn{
-        font-size:1.5rem;
+        font-size:1rem;
         bottom:unset;
         position:relative;
         top:2rem;
